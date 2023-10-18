@@ -122,6 +122,9 @@ class _CalendarScreenState extends State<CalendarScreen> {
           onMonthChanged: (value) {
             print('Month changed $value');
           },
+          onDateSelected: (value) {
+            print('Date selected $value');
+          },
           onRangeSelected: (value) {
             print('Range selected ${value.from} - ${value.to}');
           },
